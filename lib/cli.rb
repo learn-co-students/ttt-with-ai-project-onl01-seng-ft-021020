@@ -13,8 +13,11 @@ class CLI
     ["0", "1", "2"].include?(players) ? first(players.to_i) : players_choice
   end
 
-  def first
-  
+  def first(players)
+    puts ""  
+    puts "Who should go first and be X?"
+    choice = gets.strip
+    
   end
 
 
