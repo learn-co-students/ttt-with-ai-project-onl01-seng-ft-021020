@@ -291,7 +291,6 @@ describe 'Game' do
       allow($stdout).to receive(:puts)
 
       expect($stdout).to receive(:puts).with("Congratulations X!")
-
       game.play
     end
 
